@@ -4,8 +4,11 @@ public class Problem1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+//        int n =11;
         int k = scanner.nextInt();
+//        int k=3;
         Integer[] numbers = new Integer[n];
+//        Integer[] numbers ={6, 5, 2, 6, 6, 2, 1, 7, 3, 3, 3};
         Map<Integer, Integer> freq = new HashMap<>();
         Integer[] result = new Integer[k];
 
